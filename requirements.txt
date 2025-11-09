@@ -1,0 +1,21 @@
+# ---- Core Python Dependencies ----
+numpy>=1.26.0
+pandas>=2.2.0
+matplotlib>=3.8.2
+Pillow>=10.2.0
+scikit-learn>=1.6.0
+joblib>=1.3.2
+
+# ---- TensorFlow (for CGAN generator model) ----
+tensorflow==2.15.0
+
+# ---- Pix2PixHD uses PyTorch (GPU or CPU depending on system) ----
+torch==2.2.1
+torchvision==0.17.1
+
+# ---- Pix2PixHD utilities ----
+opencv-python>=4.9.0.80
+
+# ---- (Optional) Jupyter / development ----
+tqdm>=4.66.1
+

@@ -1,0 +1,26 @@
+# Python cache / temp
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Logs
+*.log
+
+# Generated images / outputs
+training_output/*.png
+training_output/*.jpg
+datasets/floorplans/test_A/*
+final_output/*
+*.png
+*.jpg
+
+# Pix2PixHD web preview folder
+pix2pixHD/checkpoints/*/web/*
+
+# Model files tracked separately via Git LFS
+*.keras
+*.pth
+*.h5
+
