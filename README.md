@@ -31,26 +31,26 @@ The system outputs a **final, high-resolution floorplan**.
 
 ##  Folder Structure
 
-floorplan_generator/
-│── datasets/
-│ └── floorplans/
-│ └── test_A/ # CGAN writes rough layout here
-│
-│── pix2pixHD/ # Pix2PixHD repo (PyTorch)
-│ └── checkpoints/
-│ └── floorGAN_finetune_v3/
-│ ├── latest_net_G.pth # Generator weights
-│ ├── latest_net_D.pth # Discriminator weights
-│
-│── training_output/
-│ ├── generator_final.keras # SavedModel (CGAN)
-│ ├── scaler_data.gz # MinMaxScaler & metadata
-│
-│── generate_floorplan.py # Runs CGAN only
-│── run_floorplan.sh # Runs full pipeline (CGAN + Pix2PixHD)
-│── requirements.txt
-│── README.md
-└── ...
+floorplan_generator/  
+│── datasets/  
+│ └── floorplans/  
+│ └── test_A/ # CGAN writes rough layout here  
+│  
+│── pix2pixHD/ # Pix2PixHD repo (PyTorch)  
+│ └── checkpoints/  
+│ └── floorGAN_finetune_v3/  
+│ ├── latest_net_G.pth # Generator weights  
+│ ├── latest_net_D.pth # Discriminator weights  
+│  
+│── training_output/  
+│ ├── generator_final.keras # SavedModel (CGAN)  
+│ ├── scaler_data.gz # MinMaxScaler & metadata  
+│  
+│── generate_floorplan.py # Runs CGAN only  
+│── run_floorplan.sh # Runs full pipeline (CGAN + Pix2PixHD)  
+│── requirements.txt  
+│── README.md  
+└── ...  
 
 ---
 
